@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "ZSZ8L959A9.com.unesrl.System1"
+        versionCode="10" 
+        version   = "1.0.0">
+	
+	<name>Une System.1</name>
+	<description>Controlla il tuo impianto fotovoltaico ovunque ti trovi</description>
+	<author href="www.arrowdeveloper.com" email="info@arrowdeveloper.com">Arrow Developer</author>
+	
+	<gap:platform name="ios" />
+	<gap:platform name="android" />
+	<gap:platform name="winphone" />
+	
+	 <preference name="permissions"                value="none"/> 
+ 
+     <!-- Customize your app and platform with the preference element. -->
+	 <preference name="phonegap-version"           value="2.9.0" />          <!-- all: current version of PhoneGap -->
+     <preference name="orientation"                value="default" />        <!-- all: default means both landscape and portrait are enabled -->
+     <preference name="target-device"              value="universal" />      <!-- all: possible values handset, tablet, or universal -->
+     <preference name="fullscreen"                 value="false" />           <!-- all: hides the status bar at the top of the screen -->
+	 <preference name="stay-in-webview" value="false" /> 
+	
+</widget>

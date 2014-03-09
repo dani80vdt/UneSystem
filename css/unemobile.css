@@ -1,0 +1,536 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* PAGE accueil */
+
+.pageUne .entete h1					{ position:absolute; top:0px; left:0px; line-height:28px; width:100%; height:28px; background-position:-150px -75px; font-family:WWb, "Trebuchet MS", Arial, Helvetica, sans-serif; }
+
+.pageUne .ui-content ul				{ width:272px; overflow:hidden; margin:0px auto 0 auto; -webkit-padding-start: 0px; }
+.pageUne .ui-content li				{ float:left; }
+
+.pageUne .ui-content li .sprite		
+{
+	 width:160px; height:180px; top:0; left:6px; 
+	 background-image: url(../images/panel2.png);
+}
+.pageUne .ui-content nav				{ text-align:center; }
+.pageUne .ui-content nav .ui-btn		{ margin:2em 0; }
+.pageUne .ui-content nav .ui-btn .ui-btn-text { font-size:1.2em; font-weight:100; font-family:WWb,"Trebuchet MS",Arial,Helvetica,sans-serif; padding-left:.2em; }
+.pageUne .ui-content nav .ui-btn:hover .ui-btn-text { }
+
+
+.tdSubTitle
+{
+	font-weight: bold;
+	text-align: left;
+	vertical-align: top;
+}
+
+.tdNormal
+{
+	text-align: left;
+}
+
+.sprite {
+background-image: url(../images/panel2.png);
+}
+
+ul li {
+list-style: none;
+}
+
+.msgError
+{
+	display: block;
+	color: red;
+	font-weight: bold;
+	text-shadow: 0px 0px 0px #fff
+}
+
+.background
+{
+	height: 100vh;
+	width: 100vw;
+	position:absolute;
+	//width:100%;
+}
+ 
+
+body
+{
+	 background: url(../images/BackGround-960.jpg);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: 100% 100%; //960px;//100vh;
+}
+ 
+
+.ui-page {
+	background: url(../images/BackGround-960.jpg);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: 100%  100%; //960px;//100vh;
+}
+.ui-content{
+    background: transparent;
+}
+
+.dots
+{
+	margin: 0px auto 0 auto;
+	margin-top: -40px;
+	padding-left: 30px;
+	width: 61px;
+}
+
+.dot {
+    display: inline-block;
+    width:12px;height:12px;
+    border-radius:6px;
+    background-color:#8999A6;
+}
+.page1 .dot1 {
+    background-color: white;
+}
+
+.page2 .dot2 {
+    background-color: white;
+}
+
+.page3 .dot3 {
+    background-color: white;
+}
+
+.page4 .dot4 {
+    background-color: white;
+}
+
+.logoApp
+{
+	position: relative;
+	display: block;
+	width: 80px;
+}
+
+.panelApp1, .panelApp2, .panelApp3, .panelApp4
+{
+	position: relative;
+	display: block;
+	width: 140px;
+	height: 190px;
+	text-align: center;
+	padding: 42px 0px 0 11px;
+	text-decoration: none;
+	font-size: 1.2em;
+	font-weight: 100;
+	font-family: WWb,"Trebuchet MS",Arial,Helvetica,sans-serif;
+	background-image: url(../images/panel2.png);
+	background-repeat: no-repeat;
+}
+
+.panelApp2,.panelApp4
+{
+	width: 110px;
+}
+
+.showBatteryApp
+{
+	position: absolute;
+	top: 7px;
+	left: 33px;
+	height: 84px;
+}
+
+.showPowerSupply
+{
+	position: absolute;
+	top: 13px;
+	left: 26px;
+	height: 70px;
+}
+
+.showConsumption
+{
+	position: absolute;
+	top: 13px;
+	left: 23px;
+	height: 78px;
+}
+
+.imgPnlSummary
+{
+	position: absolute;
+	top: 120px;
+	left: 0px;
+	height: 102px;
+	width: 120px;
+	z-index: 1;
+}
+
+.showPnlSolar
+{
+	position: absolute;
+	top: 14px;
+	left: 15px;
+	height: 69px;
+}
+
+.showPnlSolar2
+{
+	position: absolute;
+	top: 25px;
+	left: 40px;
+	height: 65px;
+}
+
+.@font-face {
+    font-family: "DS-Digital";
+    src: url(..\font\DS-DIGI.TTF);
+}
+
+.txtPnl
+{
+	//font-family: "DS-Digital",'Armata', sans-serif;
+	font-size: 14px;
+	color: rgb(85, 56, 56);
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+
+.txtPnlSolar
+{
+	position: absolute;
+	top: 92px;
+	width: 150px;
+	text-align: center;
+	left: -16px;
+}
+
+.mainLabel {
+	font-family: 'Aldrich', sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	color: rgb(85, 56, 56);
+	text-align: center;
+	position: absolute;
+	width: 146px;
+	top: 84px;
+	left: 0px;	
+	margin-left: -22px;
+}
+
+.prgBarSunny
+{
+	position: absolute;
+	top: 93px;
+	left: 7px;
+	z-index: 1;
+}
+
+.headerUne
+{
+	height:140px;
+}
+
+.rotateBattery
+{
+	position: absolute;
+	margin-top: 116px;
+	margin-left: 72px;
+	-o-transform:rotate(45deg);
+	-moz-transform:rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-ms-transform:rotate(45deg);
+	z-index: 0;
+}
+
+.rotateBattery1
+{
+	position: absolute;
+	margin-top: 52px;
+	margin-left: 78px;
+	-o-transform:rotate(180deg);
+	-moz-transform:rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	-ms-transform:rotate(180deg);
+	z-index: 0;
+}
+
+.rotateBattery2
+{
+	position: absolute;
+	margin-top: 121px;
+	margin-left: -1px;
+	-o-transform:rotate(-90deg);
+	-moz-transform:rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	-ms-transform:rotate(-90deg);
+	z-index: 0;
+}
+
+.rotatePowerSupply
+{
+	position: absolute;
+	margin-top: 52px;
+	margin-left: 68px;
+	z-index: 0;
+}
+
+.rotatePnlSolar
+{
+	position: absolute;
+	-o-transform:rotate(90deg);
+	-moz-transform:rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-ms-transform:rotate(90deg);
+	margin-top: 118px;
+	margin-left: -2px;
+	z-index: 0;
+}
+
+.enableViewAlarm
+{
+	position: absolute;
+}
+
+.powerIcon, .powerIcon2
+{
+	position: absolute;
+	top: -64px;
+	left: 0px;
+	width: 61px;
+}
+
+.powerIcon:hover
+{
+	opacity:0.0;
+	filter:alpha(opacity=0); /* For IE8 and earlier */
+	transition-property: color;
+	transition-duration: 0.7s;
+	transition-timing-function: ease-in;
+	transition-delay: 0.3s;
+}
+
+
+.updateIcon, .updateIcon2
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 61px;
+}
+
+.updateIcon:hover
+{
+	opacity:0.0;
+	filter:alpha(opacity=0); /* For IE8 and earlier */
+	transition-property: color;
+	transition-duration: 0.7s;
+	transition-timing-function: ease-in;
+	transition-delay: 0.3s;
+}
+
+.revertArrow
+{
+	-o-transform:rotate(180deg);
+	-moz-transform:rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	-ms-transform:rotate(180deg);
+}
+
+
+.showRB1_Arrow1,.showRB1_Arrow2,.showRB1_Arrow3,.showRB1_Arrow4,.showRB1_Arrow5,.showRB1_Arrow6,.showRB1_Arrow7,.showRB1_Arrow8,.showRB1_Arrow9
+,.showRB1_Arrow10,.showRB1_Arrow11,.showRB1_Arrow12,.showRB1_Arrow13
+{
+	width: 16px;
+	-o-transform:rotate(90deg);
+	-moz-transform:rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-ms-transform:rotate(90deg);
+	z-index: 1;
+	position: absolute;
+	top: 49px;
+}
+
+.showRB1_Arrow1
+{
+	left: 16px;
+}
+.showRB1_Arrow2
+{
+	left: 32px;
+}
+.showRB1_Arrow3
+{
+	left: 48px;
+}
+.showRB1_Arrow4
+{
+	left: 64px;
+}
+.showRB1_Arrow5
+{
+	left: 80px;
+}
+.showRB1_Arrow6
+{
+	left: 96px;
+}
+
+.summary1
+{
+	position: absolute;
+	left: 190px;
+	top: 10px;
+}
+
+.summary2
+{
+	position: absolute;
+	left: 125px;
+	top: 145px;
+}
+
+.summary3
+{
+	position: absolute;
+	left: 50px;
+	top: 280px;
+}
+
+.summaryPnl
+{
+	width: 100px;
+	z-index: 1;
+	margin-bottom: -25px;
+}
+
+.pSummary
+{
+	font-size: 20px;
+	color: black;
+}
+
+.spanTreeLeft
+{
+	float:left;
+	position:relative;
+}
+
+.spanTreeRight
+{
+	float:right; 
+	position:absolute;
+}
+
+.showTree
+{
+	width: 100px;
+	position:absolute;
+}
+
+.spanOilLeft
+{
+	float: left;
+	position: relative;
+	top: 160px;
+}
+
+.spanOilRight
+{
+	float: right;
+	position: relative;
+	top: 160px;
+	left: -215px;
+}
+ 
+.spanTreeText
+{
+	text-align: left;
+	max-width: 330px;
+	font-weight: bold;
+}
+
+.spanOilText
+{
+	text-align: left;
+	position: relative;
+	top: 160px;
+	max-width: 330px;
+	font-weight: bold;
+}
+
+.showOil {
+	top: 526px;
+	width: 140px;
+}
+
+.showGaugeOil
+ {
+	position: relative;
+	left: 10px;
+	top: -52px;
+	width: 140px;
+}
+
+.showEarth {
+-moz-border-radius-bottomright: 20px;
+border-bottom-right-radius: 20px;
+-moz-border-radius-bottomleft: 20px;
+border-bottom-left-radius: 20px;
+-moz-border-radius-topright: 20px;
+border-top-right-radius: 20px;
+-moz-border-radius-topleft: 20px;
+border-top-left-radius: 20px;
+-moz-box-shadow: -5px 5px 7px rgba(0, 0, 0, 0.61);
+-webkit-box-shadow: -5px 5px 7px rgba(0, 0, 0, 0.61);
+box-shadow: -5px 5px 7px rgba(0, 0, 0, 0.61);
+width: 120px;
+position: relative
+}
+
+.spanChildText
+{
+	text-align: left;
+	position: absolute;
+	max-width: 339px;
+	width: 330px;
+	font-weight: bold;
+	left: 0px;
+	top: 399px;
+}
+
+
+.spanChildLeft
+{
+	float: left;
+	position: absolute;
+	top: 409px;
+}
+
+.spanChildRight
+{
+	float: right;
+	position: absolute;
+	top: 363px;
+	left: 163px;
+}
+
+.showLung
+{
+	width: 147px;
+	position: absolute;
+	top: 35px;
+	left: 17px;
+}
+
+.showChild
+{
+	width: 92px;
+	position: absolute;
+	top: 158px;
+	left: -48px;
+}
